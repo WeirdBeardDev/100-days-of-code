@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
-## Day 2 - 2019.92.24
+## Day 2 - 2019.08.24
 **Project:** Dungeon Explorer
 * local branch `QuestArea` commit `d896bc5` - Fixed ProgressBar not scaling when resizing
 * local branch `QuestArea` commit `5514560` - Created a prefab for the ButtonProgressBar
