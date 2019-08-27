@@ -1,6 +1,12 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 4 - 2019.08.26
+**Project:** Dungeon Explorer (codename)
+All commits done to local branch `QuestArea`
+* commit `da53411` Changed Encounter Button to ButtonProgressBar to support the Autobuy feature in the future
+* commit `c14071c` Fixed Bug in Encounter\Do Encounter\Button\Action Text so it updates with the rest of the UpdatableText items
+
 ## Day 3 - 2019.08.25
 **Project:** Dungeon Explorer (codename)
 All commits done to local branch `QuestArea`
