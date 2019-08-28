@@ -1,6 +1,12 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 5 - 2019.08.27
+**Project:** Dungeon Explorer (codename)
+All commits done to local branch `QuestArea`
+* commit `a5a5ce3` Wired up Encounter Buttons - the correct encounter number is displayed in console
+* commit `9cdc91f` Minor Tweak To Encounter Button Setup - condensed two lines into one
+
 ## Day 4 - 2019.08.26
 **Project:** Dungeon Explorer (codename)
 All commits done to local branch `QuestArea`
