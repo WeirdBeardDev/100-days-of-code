@@ -1,6 +1,24 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 6 - 2019.08.28
+**Project:** Dungeon Explorer (codename)
+All commits done to local branch `QuestArea`
+* commit `bc56c4b` Saved the Scene
+* commit `7d789de` Created Income Display Prefab
+* commit `9710a58` Fixed a Bug in DisplayQuest
+  * added a null check to DoEncounter()
+* commit `d11e8e2` Encounter Button Completes the Encounter
+  * Class: `DisplayQuest`
+    * EncounterButton calls the correct Encounter and completes it
+    * I have basic functionality to increase completed and adjusted cost.
+    * Changed the Update() method to only update when something has changed.
+    * Added methods for Display* {Title|Income|Encounter|Goal}.
+    * Coded the DisplayTitle method
+  * Encounter
+    * I changed the IncomePerSecond to return just the income, not the sum of all previous incomes.
+    * I created AggregateIncome to return the sum of all income adjustments.
+
 ## Day 5 - 2019.08.27
 **Project:** Dungeon Explorer (codename)
 All commits done to local branch `QuestArea`
