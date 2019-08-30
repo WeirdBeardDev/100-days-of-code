@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 8 - 2019.08.30
+**Project:** Dungeon Explorer (codename)
+
+All commits done to local branch `QuestArea`
+* commit `fc9ecc8` Buy Encounter Done & Button Highlighting Coded
+  * Buying an encounter now adds the benefit and subtracts the cost
+  * Quest updates the AllTimeExperience and CurrentExperience correctly
+  * PurchasableEncounter script coded to change Button coloring based on interactable/non-interactable status
+
+
 ## Day 7 - 2019.08.29
 **Project:** Dungeon Explorer (codename)
 
