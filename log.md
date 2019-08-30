@@ -1,8 +1,23 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 7 - 2019.08.29
+**Project:** Dungeon Explorer (codename)
+
+All commits done to local branch `QuestArea`
+
+* commit `f414054` Basic Purchase Almost Complete
+  * Changed DisplayQuest to call Quest.DoEncounter()
+  * Add Quest.DoEncounter() to call Encounter.DoEncounter()
+  * Wired up Income Per Second and Available XP
+  * Coded purchasing of encounters for benefits - cost is evaluated but not subtracted yet
+* commit `d463fe1` Update Encounter Sprites
+  * added sprite sheet EncounterSheet1
+  * set images for the 4 fight encounter types
+
 ## Day 6 - 2019.08.28
 **Project:** Dungeon Explorer (codename)
+
 All commits done to local branch `QuestArea`
 * commit `bc56c4b` Saved the Scene
 * commit `7d789de` Created Income Display Prefab
@@ -21,18 +36,21 @@ All commits done to local branch `QuestArea`
 
 ## Day 5 - 2019.08.27
 **Project:** Dungeon Explorer (codename)
+
 All commits done to local branch `QuestArea`
 * commit `a5a5ce3` Wired up Encounter Buttons - the correct encounter number is displayed in console
 * commit `9cdc91f` Minor Tweak To Encounter Button Setup - condensed two lines into one
 
 ## Day 4 - 2019.08.26
 **Project:** Dungeon Explorer (codename)
+
 All commits done to local branch `QuestArea`
 * commit `da53411` Changed Encounter Button to ButtonProgressBar to support the Autobuy feature in the future
 * commit `c14071c` Fixed Bug in Encounter\Do Encounter\Button\Action Text so it updates with the rest of the UpdatableText items
 
 ## Day 3 - 2019.08.25
 **Project:** Dungeon Explorer (codename)
+
 All commits done to local branch `QuestArea`
 * commit `f09e890` Updated ProgressBar code so I can easily update FillColor and ForegroundSprite image
 * commit `e62b2a9` Added ButtonProgressBar Code - now it has similar functionality as the ProgressBar
