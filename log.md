@@ -1,6 +1,18 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 9 - 2019.08.31
+**Project:** Dungeon Explorer (codename)
+
+All commits done to local branch `QuestArea`
+* commit `a0efc861` - Goal Assessment Implemented
+  * Coded abstract Goal class
+  * Coded IncomeGoal class
+  * Added Goal Button to DisplayQuest
+  * Goal Button displays Quest progress towards goal
+  * Changed Encounter.IncreaseCost temp formula to make it easier to test
+  * Added Zone to Quest so formulas can change based on quest zone
+
 ## Day 8 - 2019.08.30
 **Project:** Dungeon Explorer (codename)
 
