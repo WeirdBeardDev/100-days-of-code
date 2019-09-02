@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 10 - 2019.09.01
+**Project:** Dungeon Explorer (codename)
+
+All commits done to local branch `QuestArea`
+* commit `a2aeb9b` - Fixed Background Processing 
+  - Fixed bug so that a quest continues even if it isn't selected
+  - Refactored DisplayQuest to use less Find(...) calls
+  - Update IncomeGoal to make easier to test
+
+
 ## Day 9 - 2019.08.31
 **Project:** Dungeon Explorer (codename)
 
