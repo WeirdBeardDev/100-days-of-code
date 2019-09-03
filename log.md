@@ -7,6 +7,8 @@
 * learned how to use `git stash` to move changes from one branch to another
 
 Commits done to branch `QuestBoard`
+* commit `512c7c2` - Turned ProgressBar Indicators On
+  - I had turned off the progress bar indicators for screenshots
 * commit `09130fa` - Created QuestBoard Feature Branch 
   - Updated QuestBoard area with needed game elements
   - Created Quest Zone prefab, added 3 for testing purposes
