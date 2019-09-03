@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 12 - 2019.09.03
+**Project:** Dungeon Explorer (codename)
+* commit `bff7655` - Created Quest Location Prefab
+  - removed unused Change Quest prefab
+  - created Quest Location prefab with Progress Bar
+  - added Quest Location prefabs to Forest Quest Zone for testing
+  - applied WorkingQuest script to Quest Location prefab
+  - coded the progress bar to reflect goal progress for it's quest
+
 ## Day 11 - 2019.09.02
 **Project:** Dungeon Explorer (codename)
 
