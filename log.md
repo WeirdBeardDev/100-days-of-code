@@ -1,6 +1,28 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 13 - 2019.09.04
+**Project:** Dungeon Explorer (codename)
+* commit `a011f7b` - Fixed Bug in ContentCounter
+  - It now updates the count when it changes
+* commit `5f12984` - Quest Zone Details Are Configurable
+  - Added a formatted title "{Active Quests} {Title} Zone"
+  - Added ability to update zone title
+  - Refactored ContentCounter to expose the current count
+* commit `39e78f5` - Added Scrollbar Functionality to QuestBoard Title
+  - Got the mouse wheel working, I needed to change the sensitivity
+  - Coded ability to scroll through zones while hoving over quest board title
+* commit `0121c10` - Added All 12 Zones to Quest Board
+  - Updated Quest Zone prefab to include a quest counter
+  - Added all 12 quest zones to the quest board, updated names
+  - Tweaked DisplayQuest so it no longer spams console when no quest is selected
+* commit `b6a5ab5` - Updated Encounter Sheet
+  - Added in line work for puzzle and trap encounters
+  - Removed LocationIcons file as it's no longer needed
+* Non-code activities
+  - updated [WeirdBeardDev Ko-fi page](https://ko-fi.com/weirdbearddev) with catch-up posts for DE
+  - created an album for DE and uploaded WIP art
+
 ## Day 12 - 2019.09.03
 **Project:** Dungeon Explorer (codename)
 * commit `bff7655` - Created Quest Location Prefab
