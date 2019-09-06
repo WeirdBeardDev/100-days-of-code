@@ -1,6 +1,17 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 14 - 2019.09.05
+**Project:** Dungeon Explorer (codename)
+* commit `7ea3b9a` - Started GameManager
+  - added Game Manager to hierarchy
+  - created and added GameManager script to Game Manager
+* updated VS Code to v1.38 August 2019
+* created new branch GameManager-A
+* merged QuestBoard branch onto master
+* commit `c0458cc` - Removed Test Quests
+  - alpha tests passed, removed test quests, saved scene
+
 ## Day 13 - 2019.09.04
 **Project:** Dungeon Explorer (codename)
 * commit `a011f7b` - Fixed Bug in ContentCounter
