@@ -1,6 +1,25 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 15 - 2019.09.06
+**Project:** Dungeon Explorer (codename)
+* commit `8f4cf58` - Worked on GameManager 
+  - created GameManager class and stated moving code to it
+  - refactored WorkingQuest to use GameManager
+  - refactored Quest base class
+  - refactored PlainsQuest and ForestQuest classes to match new Quest base
+  - coded RiversQuest class as it is the second zone
+  - refactored Encounter with UpdateNameAndActionText to go with updated Quest
+  - created enum QuestZoneType to list all 12 zones and remove magic numbers
+  - removed ContentCounter class as it is not needed, a list of Quests is kept at the zone level
+  - refactored QuestZoneDetails to remove ContentCounter dependency
+  - renamed 'Quest Loction' to 'Quest Location', missed an 'a' originally
+* Non-code activities
+  * Posted [DE devblog 2](https://ko-fi.com/post/Dungeon-Explorer-Devblog-2---Start-Your-Coding-M4M512XIE) to Ko-fi
+  * Posted [Trello - The All-Purpose Holder of Things](https://ko-fi.com/post/Trello---The-All-Purpose-Holder-of-Things-U7U812XJ5) to Ko-fi
+  * Posted [DE devblog 3](https://ko-fi.com/post/Dungeon-Explorer-Devblog-3---Progress-on-Progress-Z8Z412XJI) to Ko-fi
+  * Posted a [WIP progress bar](https://az743702.vo.msecnd.net/cdn/useruploads/post/gif_kofi_bbd8724e-5a17-4308-b447-7d77bbc6e179progressbar2.gif) to Ko-fi
+
 ## Day 14 - 2019.09.05
 **Project:** Dungeon Explorer (codename)
 * commit `7ea3b9a` - Started GameManager
