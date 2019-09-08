@@ -1,6 +1,21 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 16 - 2019.09.07
+**Project:** Dungeon Explorer (codename)
+* commit `ae27573` - Zone Names Come From Enum
+  - added the QuestZoneType enum to the QuestZoneDetails so the name is set from the enum
+* commit `3788367` - Create Singleton<T> and GameManager
+  - created a base Singleton<T> class to ensure all singletons are created the same
+  - refactored GameManager to derive from Singleton<T>
+  - added an InitializeGame() to GameManager
+  - added a QuitGame() to GameManager
+* commit `aebd8db` - Fixed Missing Text in Plains Quest 
+  - updated text for names
+  - added some missing action text
+* Non-code Activities
+  * Posted [Write Code, Wrong Branch](https://weirdbearddev.com/2019/09/07/write-code-wrong-branch/) to WBD and Twitter
+
 ## Day 15 - 2019.09.06
 **Project:** Dungeon Explorer (codename)
 * commit `8f4cf58` - Worked on GameManager 
