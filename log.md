@@ -1,6 +1,17 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 17 - 2019.09.08
+**Project:** Dungeon Explorer (codename)
+* commit `13d25ca` - Improving QuestZoneDetails To Manage Each Zone
+  - QuestZoneDetails maintains a List<Quest> for it's zone
+  - wired up the temp creation of specific Quest types; will convert to factory in future
+  - in WorkingQuest exposed public properties ActiveQuest to receive input from QuestZoneDetails
+* commit `46cb3da` - Improved Singleton and GameManager 
+  - added checks for is quitting and to return null if quitting
+  - added a lock for thread safety
+  - updated GameManager.OnApplicationQuit to call the base class
+
 ## Day 16 - 2019.09.07
 **Project:** Dungeon Explorer (codename)
 * commit `ae27573` - Zone Names Come From Enum
