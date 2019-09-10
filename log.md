@@ -1,6 +1,19 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 18 - 2019.09.09
+**Project:** Dungeon Explorer (codename)
+* commit `02e5ce1` - Code Ability To Instantiate Quests
+  - created QuestFactory to return correct type of quest object
+  - refactored Quest Location prefab to ref its own button
+  - refactored Quest Zone prefab to apply changes for displaying quests correctly
+  - removed unused code from GameManager
+  - refactored QuestZoneDetails to instantiate quests as needed
+  - refactored WorkingQuest simplifying the code
+  - updated doc in Quest
+* Non-code Activities
+  * published [DE Devblog 5 - Uncharted Territory](https://weirdbearddev.com/?p=597) to [WBD](https://weirdbearddev.com), [Twitter](https://twitter.com/weirdbearddev/status/1171267951816785922), [r/devblogs](https://www.reddit.com/r/devblogs/comments/d227tr/dungeon_explorer_devblog_5_uncharted_territory/), [PixelFest Devs](https://www.facebook.com/groups/1738572983081896/permalink/2453730131566174/) 
+
 ## Day 17 - 2019.09.08
 **Project:** Dungeon Explorer (codename)
 * commit `13d25ca` - Improving QuestZoneDetails To Manage Each Zone
