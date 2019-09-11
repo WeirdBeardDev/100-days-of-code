@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 20 - 2019.09.11
+**Project:** Dungeon Explorer (codename)
+* commit `0b931f75` - Working On Serializing Classes
+  - refactored Encounter for serializing and removed unneeded code
+  - refactored EncounterType, Goal, IncomeGoal, ForestQuest, PlainsQuest, Quest, QuestZoneType, RiversQuest for serializing
+  - refactored DisplayQuest to align with new Encounter updates
+  - refactored GameFile so fileName is readonly
+
 ## Day 19 - 2019.09.10
 **Project:** Dungeon Explorer (codename)
 * commit `062ac91` - Starting the Save/Load Game Changes
