@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 19 - 2019.09.10
+**Project:** Dungeon Explorer (codename)
+* commit `062ac91` - Starting the Save/Load Game Changes
+  - refactored DisplayQuest to remove members
+  - refactored QuestZoneDetails adding and removing members to support saving/loading
+  - refactored WorkingQuest to remove ref to button
+  - coded QuestZoneData class to save all the data for each quest zone
+  - refactored ForestQuest and RiverQuest to detail to their respective zone types
+  - coded GameFile class to do the saving and loading of the game file
+
 ## Day 18 - 2019.09.09
 **Project:** Dungeon Explorer (codename)
 * commit `02e5ce1` - Code Ability To Instantiate Quests
