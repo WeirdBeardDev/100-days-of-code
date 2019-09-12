@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 21 - 2019.09.12
+**Project:** Dungeon Explorer (codename)
+* commit `386cb5f` - Working On Saving Data 
+  - refactored GameMaager to get zone details and setup the save object
+  - added a temp Save button to test my save code
+  - refactored QuestZoneDetails to connect to GameManager so GM records came state but the zone manages itself
+  - removed Current and AllTime experience totals as they aren't needed at the encounter level
+  - renamed QuestZoneData to SaveZoneData
+  - coded a temp SaveAsJson method in GameFile, managed to get some of my data saved, however, lists are not working
+
 ## Day 20 - 2019.09.11
 **Project:** Dungeon Explorer (codename)
 * commit `0b931f75` - Working On Serializing Classes
