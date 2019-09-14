@@ -1,6 +1,23 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 23 - 2019.09.14
+**Project:** Dungeon Explorer (codename)
+* commit `5502696` - Basic Load Game Functionality Implemented
+  - coded LoadHelper in GameManager to resetup the game
+  - coded LoadData in QuestZoneDetails
+  - refactored Awake and Start in QuestZoneDetails to streamline setup
+
+## Day 22 - 2019.09.13
+**Project:** Dungeon Explorer (codename)
+* commit `e50c13d` - Renamed SaveZoneData To SaveData
+  - renamed class it will encompass all the game state for the game not just the zones
+* commit `3ea9161` - Saving/Loading From File Works
+  - coded LoadGame() in GameManager
+  - fixed bug in QuestZoneDetails where List<Quest> was not initialized by property
+  - coded LoadGame() in GameFile to deserialize the object back in
+  - currently the object is loaded in memory only, next step is to get it applied to the game state
+
 ## Day 21 - 2019.09.12
 **Project:** Dungeon Explorer (codename)
 * commit `386cb5f` - Working On Saving Data 
