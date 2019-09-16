@@ -1,6 +1,13 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 24 - 2019.09.15
+**Project:** Dungeon Explorer (codename)
+* Spent about 25 mins fighting with VS Code which isn't opening my Unity files any more no matter what I try
+* Finally got the project open in Visual Studio 2017 only to find out that it is no longer saving or loading at all
+* Spent the last 35 minutes trying to figure out WTF and can't
+* Sometimes this is what coding looks like
+
 ## Day 23 - 2019.09.14
 **Project:** Dungeon Explorer (codename)
 * commit `5502696` - Basic Load Game Functionality Implemented
