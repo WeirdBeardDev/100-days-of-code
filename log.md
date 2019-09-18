@@ -1,6 +1,18 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 25 - 2019.09.17
+**Project:** Dungeon Explorer (codename)
+* commit `19fea8a` - Started Wiring Up Quest Completion And Rewards
+  - coded event listeners for completing a quest in DisplayQuest
+  - coded a pass-thru call in GameManager for completing a quest
+  - blocked out the completing quest in QuestZoneDetails
+  - updated IncomeGoal and Quest to make it easier to test
+* commit `07b9183` - Fixed Bug In Saving/Loading 
+  - removed static from fields and calls that prevented saving/loading from working
+  - coded explicit convsersion from QuestZoneDetails to SaveData
+  - removed SaveGameAsJson code from GameFile
+
 ## Day 24 - 2019.09.15
 **Project:** Dungeon Explorer (codename)
 * Spent about 25 mins fighting with VS Code which isn't opening my Unity files any more no matter what I try
