@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 26 - 2019.09.18
+**Project:** Dungeon Explorer (codename)
+* commit `08524d0` - Working on Completing a Quest And Starting a New One 
+  - imported the sprite sheets for Plains, Rivers, and Swamps
+  - created Plains and Rivers Quest prefab variations for their respective zones
+  - started coding the quest completion routines
+  - started coding the new quest routines
+
 ## Day 25 - 2019.09.17
 **Project:** Dungeon Explorer (codename)
 * commit `19fea8a` - Started Wiring Up Quest Completion And Rewards
