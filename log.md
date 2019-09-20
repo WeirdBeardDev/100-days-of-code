@@ -1,6 +1,17 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 27 - 2019.09.19
+**Project:** Dungeon Explorer (codename)
+* commit d2f0469 - Finished Quest Completion and Basic Rewards
+- redesigned several classes to support quest completion
+- had to break DisplayDefaultQuest (it was hack n slash anyway)
+- refactored partialCount and partialToFullAmount out of QuestZoneDetails and into Quest
+- fixed bug in WorkingQuest that emptied my list of images
+- coded revealing map fragments and full map in WorkingQuest
+- refactored Quest to make private members protected instead
+- refactored Forest, Rivers, Plains Quest to simplify creation
+
 ## Day 26 - 2019.09.18
 **Project:** Dungeon Explorer (codename)
 * commit `08524d0` - Working on Completing a Quest And Starting a New One 
