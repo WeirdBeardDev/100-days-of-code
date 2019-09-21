@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 28 - 2019.09.20
+**Project:** Dungeon Explorer (codename)
+* commit `1e85715` - Fixed Display Default Quest, Started Switching To Working Quest
+  - refactored ShowQuest to use working quest in DisplayQuest class
+  - updated GameManager to use a List<QuestZoneDetails> rather than individually specifying them
+  - refactored collection of WorkingQuests in QuestZoneDetails so it uses a List<> instead of a GetComponentsInChildren() call
+* commit `e0688be` - Updated GameFile With New Features
+  - coded SaveFileExists check that returns a bool if a save file exists or not
+  - coded a DeleteSave() that deletes the file (hack n slash it hides all errors)
+
 ## Day 27 - 2019.09.19
 **Project:** Dungeon Explorer (codename)
 * commit d2f0469 - Finished Quest Completion and Basic Rewards
