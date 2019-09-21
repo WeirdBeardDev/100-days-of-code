@@ -1,6 +1,21 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 29 - 2019.09.21
+**Project:** Dungeon Explorer (codename)
+* commit `b177add` - Updated Goal Code
+  - renamed property QuestGoal to ActiveQuest
+  - refactored IncomeGoal to adjust the target depending on the zone
+* commit `1516075` - Created Prefab Variants For Each Quest Zone
+  - created variants for Burial Mounds, Caves, Cliffs, Dungeon, Forest, Hills, Lakes, Mines, Mountains, and Swamps
+  - set each variant to its corresponding zone so correct prefab is instantiated
+* commit `9321186` - Added Reward To CompleteQuest
+  - coded new method to reward topexx crystals (game currency) based upon all time xp gained when completing a quest
+* commit `8b20d6f` - Coded Out Initial Quest Classes
+  - coded BurialMounds*, Caves*, Cliffs*, Dungeon*, Hills*, Lakes*, Mines*, Mountains*, Swamp* Quest classes
+  - updated QuestFactory to return new specific quests as needed
+
+
 ## Day 28 - 2019.09.20
 **Project:** Dungeon Explorer (codename)
 * commit `1e85715` - Fixed Display Default Quest, Started Switching To Working Quest
@@ -14,13 +29,13 @@
 ## Day 27 - 2019.09.19
 **Project:** Dungeon Explorer (codename)
 * commit d2f0469 - Finished Quest Completion and Basic Rewards
-- redesigned several classes to support quest completion
-- had to break DisplayDefaultQuest (it was hack n slash anyway)
-- refactored partialCount and partialToFullAmount out of QuestZoneDetails and into Quest
-- fixed bug in WorkingQuest that emptied my list of images
-- coded revealing map fragments and full map in WorkingQuest
-- refactored Quest to make private members protected instead
-- refactored Forest, Rivers, Plains Quest to simplify creation
+  - redesigned several classes to support quest completion
+  - had to break DisplayDefaultQuest (it was hack n slash anyway)
+  - refactored partialCount and partialToFullAmount out of QuestZoneDetails and into Quest
+  - fixed bug in WorkingQuest that emptied my list of images
+  - coded revealing map fragments and full map in WorkingQuest
+  - refactored Quest to make private members protected instead
+  - refactored Forest, Rivers, Plains Quest to simplify creation
 
 ## Day 26 - 2019.09.18
 **Project:** Dungeon Explorer (codename)
