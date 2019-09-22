@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 30 - 2019.09.22
+**Project:** Dungeon Explorer (codename)
+* commit `0c3f380` - Started Testing, Found Bugs, Fixed Some, Created More
+  - pro tip don't ask Unity to create 362 MILLION objects in alpha stage
+  - coded shortcuts for completing encounters and quests
+  - discovered bug that the complete quest is actionable via shortcut even if isn't completable - left bug in for testing purposes
+  - fixed bug in displaying first quest when the zone no longer has quests, now it moves down a zone and tries again
+
 ## Day 29 - 2019.09.21
 **Project:** Dungeon Explorer (codename)
 * commit `b177add` - Updated Goal Code
