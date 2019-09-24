@@ -1,6 +1,27 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 31 - 2019.09.23
+**Project:** Dungeon Explorer (codename)
+* merged `SaveOnPlay` onto `master`, then rebased `master` into `audiomanager`
+  * now I have a clean commit history with the save on run feature and no weird commits on `audiomanager`
+* commit `1926759` - Created Save On Run Menu Item
+  - since losing some data due to my not saving, I found a script to have the editor auto save when I enter play mode
+  - I can toggle the feature on/off through my newly created Tools menu
+* created `SaveOnPlay` branch
+* commit `9ac7baa` - Created AudioManager Singleton 
+  - coded a basic audio manager singleton to play music and sounds
+* Created branch `audiomanager`
+* Merged `GameManager-A` onto `master`, pushed to GitHub
+* commit `0d139a7` - Final GameManager-A Commit
+  - basic testing complete
+* Posted [Devblog 6 - Working Quests](https://weirdbearddev.com/2019/09/23/dungeon-explorer-devblog-6-working-quests/) to:
+  *  [WeirdBeardDev site](https://weirdbearddev.com)
+  *  [Twitter](https://twitter.com/weirdbearddev/status/1176320282820251648)
+  *  [r/devblogs](https://www.reddit.com/r/devblogs/comments/d8gwzn/dungeon_explorer_devblog_6_working_quests/)
+  *  [PixelFest Devs](https://www.facebook.com/groups/1738572983081896/permalink/2464927600446427/)
+
+
 ## Day 30 - 2019.09.22
 **Project:** Dungeon Explorer (codename)
 * commit `0c3f380` - Started Testing, Found Bugs, Fixed Some, Created More
