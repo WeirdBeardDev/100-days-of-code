@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 32 - 2019.09.24
+**Project:** Dungeon Explorer (codename)
+* commit 0f0c6b4 - Completed Alpha AudioManager
+  - downloaded sample combat sounds for testing
+  - added the clips to encounter prefab
+  - fixed a bug in completing encounters were it would always accept the keyboard shortcut but not the button click
+  - refactored DisplayQuest to work directly with PurchasableEncounter classes
+
 ## Day 31 - 2019.09.23
 **Project:** Dungeon Explorer (codename)
 * merged `SaveOnPlay` onto `master`, then rebased `master` into `audiomanager`
