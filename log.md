@@ -1,9 +1,15 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 33 - 2019.09.25
+**Project:** Dungeon Explorer (codename)
+* Design Adventurer Feature
+
+Yesterday it took over an hour to do something that should have taken no more than 10 minutes, if I had thought about my design a bit more.  I am accruing too much technical debt from coding without a design.  Today I fixed that, I spent my time designing my next feature, Adventurers.  It took about 2 hours and already is worth it, I know I have to fix so many previous mistakes just to get this to work.  However, now I can choose what to fix and when.
+
 ## Day 32 - 2019.09.24
 **Project:** Dungeon Explorer (codename)
-* commit 0f0c6b4 - Completed Alpha AudioManager
+* commit `0f0c6b4` - Completed Alpha AudioManager
   - downloaded sample combat sounds for testing
   - added the clips to encounter prefab
   - fixed a bug in completing encounters were it would always accept the keyboard shortcut but not the button click
