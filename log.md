@@ -1,6 +1,13 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 35 - 2019.09.27
+**Project:** Dungeon Explorer (codename)
+* commit `8cfd05a` - Created Base Skill Class 
+  - coded Skill class that applies buffs/debuffs to various Traits
+* commit `904727c` - Created ExpertiseType
+  - coded enum ExpertiseType to enable an artisian quality system much like apprentice, journeyman, master type systems
+
 ## Day 34 - 2019.09.26
 **Project:** Dungeon Explorer (codename)
 * commit `acd0b77` - Coded Trait Classes 
