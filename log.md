@@ -1,6 +1,13 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 34 - 2019.09.26
+**Project:** Dungeon Explorer (codename)
+* commit `acd0b77` - Coded Trait Classes 
+  - the Trait, TraitModifier, TraitModifierType classes will enable future refactoring for modifiers
+  - check out the [character stats](https://forum.unity.com/threads/tutorial-character-stats-aka-attributes-system.504095/) post on the Unity forums
+
+
 ## Day 33 - 2019.09.25
 **Project:** Dungeon Explorer (codename)
 * Design Adventurer Feature
