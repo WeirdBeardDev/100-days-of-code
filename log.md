@@ -1,6 +1,12 @@
 # 100 Days Of Code - Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 36 - 2019.09.28
+**Project:** Dungeon Explorer (codename)
+* commit e56dac8 - Created GrantIncomeSkill
+  - coded first skill using my new skill class
+  - I need to figure out how to connect it to actual things
+
 ## Day 35 - 2019.09.27
 **Project:** Dungeon Explorer (codename)
 * commit `8cfd05a` - Created Base Skill Class 
