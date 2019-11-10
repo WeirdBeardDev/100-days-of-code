@@ -1,7 +1,25 @@
 # Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
-## Day 1 - 2019-11-10
+## Day 2 - 2019-11-10
+**Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
+* commit `bd7a93b` - Refactored DisplayQuest 
+  - created QuestChanged event in DisplayQuest
+  - created DisplayCurrency and wired up for the QuestChanged event
+  - created DisplayEncounter and wired up for the QuestChanged event
+  - created DisplayGoal and wired up for the QuestChanged event
+  - updated PurchasableEncounter to use the QuestChanged event
+  - created UpdateQuestTitleDisplay and wired up for the QuestChanged event
+  - attached the Unity Debugger
+  - deleted EncounterShortcuts and refactored code out to more pertinent objects
+  - created EncounterIndex to easily ref the index for each encounter
+
+* commit `74a8ade` - Refactored Shortcuts To Simulate Button Clicks
+  - converted all encounter shortcuts so they simulate the button click
+  - this allows for more event handling behaviour
+
+
+## Day 1 - 2019-11-09
 **Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
 * commit `d7d0461` - Refactored Encounter Completion 
   - completed first pass of encounter refactoring
