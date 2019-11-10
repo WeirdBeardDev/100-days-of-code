@@ -1,5 +1,55 @@
-# 100 Days Of Code - Log
+# Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
+
+## Day 1 - 2019-11-10
+**Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
+* commit `d7d0461` - Refactored Encounter Completion 
+  - completed first pass of encounter refactoring
+* commit `9f86cae` - Commented Out Music Audio Source
+  - turned off music audio source until music gets implemented
+* commit `d24446b` - Refactored AdventurerDisplay
+  - added Count and GetEnumerator to AdventurerDisplay        
+* commit `ca43ca8` - Refactor Shortcuts
+* commit `56af740` - Coded EncounterList Class
+  - code a List<T> wrapper class for the encounters
+* commit `be5a513` - Updated ActiveQuest Refs to ActiveWorkingQuest
+  - previously used 2 different refs to the same object, cleaned up my code to standardize on ActiveWorkingQuest ref
+* commit `24c899c` - Code Reorg
+  - moved the Properties code block up in the file, purely cosmetic
+* commit `587c8e2` - Removed DidComplete From EncounterCompletedEventArgs
+  - the DidComplete was redundant as the name implies the encounter did complete
+* commit `7d5fda2` - Changed Variable EncounterNumber to EncounterIndex
+  - clarified the intent of the variable by switching to index
+
+## Day 1 - 2019.10.27
+**Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
+I began working on my game again.  I reviewed the design for the Adventurers and realized it was crap, so I scraped it and started over.  This time I will design, code, and test in smaller cycles so that I don't create a mess of useless code that I will have to massively refactor later.
+
+This is my first game project, I don't need it perfect, I need it workable so I can learn and improve.
+
+### Commits
+* commit `be0e8de` - Started Overhauling Skills 
+  * gutted the Skill class and redefined to bare essentials, I plan to build it back up by using it
+  * refactored GrantIncomeSkill to match new Skill base
+
+* commit `e79e6e1` - Added Formulas and LeveledFloat Classes 
+  * added Formulas static class to feed into the LeveledFloat class
+  * added a LeveledFloat class which levels up the cost and output based upon formulas for use in incremental games
+
+* commit `22ba643` - Fixed Bug In Stat Class
+  * refactored BaseValue to return just the base value
+
+* commit `a9deb4d` - Refactored Quest Income To Use Stat Class
+  * fixed bug in Stat where changing BaseValue would not trigger a recalc
+  * renamed Stat.Value to Stat.CalculatedValue to improve readability
+  * refactored Quest.CurrentExperience into simple auto-property definition
+  * refactored Quest.IncomePerSecond to use Stat
+  * refactored IncomeGoal.AssessGoal to use Stat IncomePerSecond
+  * refactored WorkdingQuest to use Stat IncomePerSecond
+  * refacotred DisplayQuest to use Stat IncomePerSecond
+
+* commit `b5189aa` - Renamed Trait to Stat
+  * Changed all Trait related names to Stat
 
 ## Day 36 - 2019.09.28
 **Project:** Dungeon Explorer (codename)
