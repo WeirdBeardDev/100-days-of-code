@@ -1,6 +1,13 @@
 # Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 3 - 2019-11-11
+**Project:** [WeirdBeardDev WordPress Site](https://weirdbearddev.com/)
+* switched to Romero theme
+  * customized CSS to brighten up some of the text elements
+  * setup various widgets to tie my online presence together
+  * integrated my [Ko-fi page](https://ko-fi.com/weirdbearddev) in as a sidebar widget
+
 ## Day 2 - 2019-11-10
 **Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
 * commit `bd7a93b` - Refactored DisplayQuest 
