@@ -1,6 +1,17 @@
 # Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 4 - 2019-11-12
+**Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
+* commit `56baeb9` - Started Refactoring ProgressBar 
+  - removed the Find calls and replaced with direct refs
+  - changed OnCompleted event name to MaxValueReached
+* commit `8e95e34` - Refactored ProgressBar 
+  - ProgressBar is now a base class
+  - GraphicProgressBar derives from ProgressBar and adds a fancy sprite border around it
+  - ButtonProgressBar dervies from ProgressBar and has a interactable button attached
+  - moved ProgressBar down to it's own gameObject
+
 ## Day 3 - 2019-11-11
 **Project:** [WeirdBeardDev WordPress Site](https://weirdbearddev.com/)
 * switched to Romero theme
