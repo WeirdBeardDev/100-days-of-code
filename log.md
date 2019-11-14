@@ -1,6 +1,14 @@
 # Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 5 - 2019-11-13
+**Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
+* commit `28c934f` - More ProgressBar Refactoring 
+  - changed event to static so you don't need an instance of the ProgressBar class
+  - added refs for Button and ButtonText to ButtonProgressBar
+  - removed refs for goal button and button text from DisplayGoal, now use the updated ButtonProgressBar
+
+
 ## Day 4 - 2019-11-12
 **Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
 * commit `56baeb9` - Started Refactoring ProgressBar 
