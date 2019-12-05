@@ -1,0 +1,386 @@
+/* Drop Your Custom CSS Code Here */
+body {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    color: #cecece;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body p,
+body blockquote,
+body dl {
+    margin: 0 0 16px 0;
+}
+
+body a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-skip: objects;
+    color: #4078c0;
+    text-decoration: none;
+}
+
+body a:active,
+body a:hover {
+    outline-width: 0;
+    text-decoration: underline;
+    background-color: rgba(212, 17, 238, 0.12);
+    border-radius: 8px;
+}
+
+body a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+body strong {
+    font-weight: bolder;
+}
+
+body img {
+    border-style: none;
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: #fff;
+}
+
+body svg:not(:root) {
+    overflow: hidden;
+}
+
+body code,
+body kbd,
+body pre {
+    font: 14px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    margin: 0 0 16px 0;
+    word-wrap: normal;
+    word-break: normal;
+}
+
+body code {
+    margin: 0;
+    padding: 0.2em 0em 0.2em 0em;
+}
+
+body code::before,
+body code::after {
+    /*letter-spacing: -0.2em;*/
+    content: "\00a0";
+}
+
+body code:hover {
+    background-color: rgba(212, 17, 238, 0.12);
+    border-radius: 8px;
+}
+
+body kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 14px;
+    line-height: 5px;
+    color: #555;
+    background-color: #fcfcfc;
+    border: solid 1px #ccc;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #bbb;
+}
+
+body pre>code {
+    padding: 0;
+    margin: 0;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+}
+
+body .highlight pre,
+body pre {
+    /*padding: 16px;*/
+    overflow: auto;
+    line-height: 1.45;
+    border-radius: 3px;
+}
+
+body pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    background-color: transparent;
+    border: 0;
+}
+
+body pre code::before,
+body pre code::after {
+    content: normal;
+}
+
+body input {
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-font-feature-settings: "liga"0;
+    font-feature-settings: "liga"0;
+}
+
+body [type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body hr {
+    box-sizing: content-box;
+    height: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #cecece;
+    overflow: visible;
+    padding: 0;
+    height: 0.15em;
+    background-color: #cecece;
+}
+
+body hr::before {
+    display: table;
+    content: "";
+}
+
+body hr::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+body td,
+body th {
+    padding: 0;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+body h1 {
+    font-size: 40px;
+    margin: 0.67em 0;
+    color: #8064a2;
+    width: 100%;
+    padding-top: 10px;
+    /* border-top: 5px solid purple; */
+    /* something is overriding the border-top color to be a dark gray */
+    /* something is adding a small solid line under h1 */
+}
+
+body h2 {
+    font-size: 32px;
+    color: #f79646;
+}
+
+body h3 {
+    font-size: 28px;
+    color: #bd4f81;
+}
+
+body h4 {
+    font-size: 24px;
+    color: #c0504d
+}
+
+body h5 {
+    font-size: 22px;
+    color: #9bbb59
+}
+
+body h6 {
+    font-size: 20px;
+    color: #a6a6a6;
+}
+
+body h1:hover .anchor,
+body h2:hover .anchor,
+body h3:hover .anchor,
+body h4:hover .anchor,
+body h5:hover .anchor,
+body h6:hover .anchor {
+    text-decoration: none;
+}
+
+body dd {
+    margin-left: 0;
+}
+
+body::before {
+    display: table;
+    content: "";
+}
+
+body::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+body>*:first-child {
+    margin-top: 0 !important;
+}
+
+body>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+body blockquote {
+    padding: 0 1em;
+    color: #777;
+    border-left: 0.25em solid #ddd;
+}
+
+body blockquote>:first-child {
+    margin-top: 0;
+}
+
+body blockquote>:last-child {
+    margin-bottom: 0;
+}
+
+body ul,
+body ol {
+    margin: 0px 0px 16px 0px;
+    padding-left: 2em;
+}
+
+body ol ol,
+body ul ol {
+    list-style-type: lower-roman;
+}
+
+body ul ul,
+body ul ol,
+body ol ol,
+body ol ul {
+    margin: 0;
+}
+
+body ul ul ol,
+body ul ol ol,
+body ol ul ol,
+body ol ol ol {
+    list-style-type: lower-alpha;
+}
+
+body li>p {
+    margin-top: 16px;
+}
+
+body li+li {
+    margin-top: 0.25em;
+}
+
+body dl {
+    padding: 0;
+}
+
+body dl dt {
+    padding: 0;
+    margin-top: 16px;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body dl dd {
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+
+body table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 0 16px 0;
+}
+
+body table th {
+    font-weight: bold;
+    color: #4bacc6;
+    background-color: #222;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+}
+
+body table td {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    /* The first row is getting a border like a header and I don't know why. */
+}
+
+body table tr {
+    background-color: #333;
+}
+
+body table tr:nth-child(2n) {
+    background-color: #444;
+}
+
+body .full-commit .btn-outline:not(:disabled):hover {
+    color: #4078c0;
+    border: 1px solid #4078c0;
+}
+
+body :checked+.radio-label {
+    position: relative;
+    z-index: 1;
+    border-color: #4078c0;
+}
+
+body .task-list-item {
+    list-style-type: none;
+}
+
+body .task-list-item+.task-list-item {
+    margin-top: 3px;
+}
+
+body progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 250px;
+    height: 20px;
+}
+
+body progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+body progress[value]::-webkit-progress-value {
+    border-radius: 7px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    background-color: purple;
+}
