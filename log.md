@@ -3,7 +3,7 @@
 
 ## Day 36 - 2019.09.28
 **Project:** Dungeon Explorer (codename)
-* commit e56dac8 - Created GrantIncomeSkill
+* commit `e56dac8` - Created GrantIncomeSkill
   - coded first skill using my new skill class
   - I need to figure out how to connect it to actual things
 
@@ -19,7 +19,6 @@
 * commit `acd0b77` - Coded Trait Classes 
   - the Trait, TraitModifier, TraitModifierType classes will enable future refactoring for modifiers
   - check out the [character stats](https://forum.unity.com/threads/tutorial-character-stats-aka-attributes-system.504095/) post on the Unity forums
-
 
 ## Day 33 - 2019.09.25
 **Project:** Dungeon Explorer (codename)
