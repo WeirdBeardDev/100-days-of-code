@@ -1,6 +1,17 @@
 # Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 1 - 2020-01-27
+**Project:** Treasure Hunter: Quizzen's Suit (formerly codenamed Dungeon Explorer)
+* commit `b010771` - Added Location to Quest
+  - add Location property to Quest class for easier traversals
+* commit `b1e8725` - Refactored WorkingQuest to Location 
+  - removed WorkingQuest class
+  - updated all references to Location in all classes
+  - fixed numerous bugs resulting from the changes
+  - added in null checks in various places
+  - removed DisplayQuest as no longer needed
+
 ## Day 5 - 2019-11-13
 **Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
 * commit `28c934f` - More ProgressBar Refactoring 
