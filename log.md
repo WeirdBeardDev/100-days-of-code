@@ -1,6 +1,16 @@
 # Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 2 - 2020-01-28
+**General**
+* uninstalled Unity 2018.3
+* installed Unity 2019.3
+* imported Sandbox3d project to 2019.3
+**Project:** Treasure Hunter: Quizzen's Suit (formerly codenamed Dungeon Explorer)
+* commit `d6b3230` - Lazy Load Location's Quest 
+  - changed Location's Quest property to create a quest the first time it's called
+  - removed horizontal scrollbar from Quest Zone prefab
+
 ## Day 1 - 2020-01-27
 **Project:** Treasure Hunter: Quizzen's Suit (formerly codenamed Dungeon Explorer)
 * commit `b010771` - Added Location to Quest
