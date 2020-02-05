@@ -1,6 +1,13 @@
 # Daily Work Log
 **Log Repo:** [WBD 100 Days of Code](https://github.com/WeirdBeardDev/100-days-of-code)
 
+## Day 3 - 2020-01-31
+**General**
+* posted to HRUUG discussion about 2019.3
+* asked PFD about location for Feb 18 meetup
+* update SMD's sales funnel for my current accounts
+* followed [Robert Kossessa's](https://kosro.de/unity-dark-theme/) to get the Unity dark theme on 2019.2 and 2019.3
+
 ## Day 2 - 2020-01-28
 **General**
 * uninstalled Unity 2018.3
@@ -21,6 +28,8 @@
   - fixed numerous bugs resulting from the changes
   - added in null checks in various places
   - removed DisplayQuest as no longer needed
+
+---
 
 ## Day 5 - 2019-11-13
 **Project:** Treasure Hunter: Quixxen's Suit (formerly Dungeon Explorer)
